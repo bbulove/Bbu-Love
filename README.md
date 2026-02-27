@@ -1,2 +1,2 @@
-# Bbu-Love
+#bbu-love
 My love proposal website ❤️

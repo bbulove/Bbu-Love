@@ -1,0 +1,162 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Bbu ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:Poppins;
+background:linear-gradient(135deg,#ff758c,#ff7eb3);
+text-align:center;
+color:#333;
+}
+
+h1{
+font-family:Great Vibes;
+font-size:55px;
+color:#8b0039;
+margin-top:25px;
+}
+
+.section{
+padding:25px 15px;
+}
+
+.box{
+background:white;
+margin:20px;
+padding:25px;
+border-radius:25px;
+box-shadow:0 6px 20px rgba(0,0,0,0.2);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:20px;
+box-shadow:0 5px 12px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+button{
+background:#8b0039;
+color:white;
+border:none;
+padding:15px 30px;
+font-size:20px;
+border-radius:30px;
+cursor:pointer;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+footer{
+padding:18px;
+font-size:14px;
+color:#555;
+}
+</style>
+</head>
+
+<body>
+
+<h1>For My Bbu ❤️</h1>
+<p>From Lucky, With True Love 💕</p>
+
+<!-- Gallery -->
+<div class="section box">
+<h2>My Beautiful Urvashi 💖</h2>
+
+<div class="gallery">
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
+<img src="photo6.jpg">
+<img src="photo7.jpg">
+<img src="photo8.jpg">
+</div>
+</div>
+
+<!-- Love Letter -->
+<div class="section box">
+<h2>My Heart Letter 💌</h2>
+
+<p>
+Dear Bbu ❤️<br><br>
+
+Tum meri life ki sabse beautiful feeling ho 💖<br>
+Tumhari ek smile meri saari thakan mita deti hai ✨<br><br>
+
+Aaj shayad mere paas zyada paise nahi hain,<br>
+par mera pyaar, loyalty aur mehnat unlimited hai 💪❤️<br><br>
+
+Main wada karta hoon ki ek din<br>
+main tumhara dream life banaunga,<br>
+jisme sirf khushi hogi 💍
+</p>
+</div>
+
+<!-- Promise -->
+<div class="section box">
+<h2>My Promise 🤞</h2>
+
+<p>
+Main tumhara hamesha respect karunga ❤️<br>
+Tumhari care karunga 💕<br>
+Tumhe kabhi akela feel nahi hone dunga 💪<br><br>
+
+Lucky + Bbu = Forever ♾️
+</p>
+</div>
+
+<!-- Dream Wedding -->
+<div class="section box">
+<h2>Our Dream Wedding 💍</h2>
+
+<p>
+Ek din hum dono shaadi karenge 💖<br>
+Tum white/red dress me queen lagogi 👑<br>
+Main tumhara haath pakad kar kahunga —<br>
+"I’m lucky to have you" ❤️<br><br>
+
+Phir hum apni small si happy family banayenge 🏡💕
+</p>
+</div>
+
+<!-- Proposal -->
+<div class="section box">
+<h2>Will You Marry Me? 💍</h2>
+
+<p>Bbu, kya tum meri life partner banogi? ❤️</p>
+
+<button onclick="yesLove()">YES 💖</button>
+</div>
+
+<footer>
+Only For My Queen 👑 — Lucky 💕
+</footer>
+
+<script>
+function yesLove(){
+alert("Thank You Bbu ❤️💍\nI Promise You A Beautiful Life 😘");
+}
+</script>
+
+</body>
+</html>
